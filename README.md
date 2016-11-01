@@ -2,9 +2,9 @@
 
 ## Git - commands
 
-`git status`
+`git status` - information about our local repository
 
-`git add nameofFile.extension`
+`git add nameofFile.extension` - add file to the index
 
 `git add .` - add all new files to index
 
