@@ -14,6 +14,10 @@
 
 `git branch nameOfNewBranch` - create new local branch
 
+`git branch -d branch_name` - delete local branch
+
+`git push origin --delete branch_name` - delete remote (global) branch on the server
+
 `git push origin nameOfBranch` - send all change to the server
 
 `git pull` - take all changes from the server to the local repositiry
