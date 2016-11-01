@@ -24,4 +24,4 @@
 
 `git merge nameOfBranch` - merge two local branch: branch which is active 
 
-& and that which we put either value \"nameOfBranch\"
+& and that which we put either value "nameOfBranch"
