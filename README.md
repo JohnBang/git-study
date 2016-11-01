@@ -22,6 +22,4 @@
 
 `git init` - initialize a new local repository - as git-repository 
 
-`git merge nameOfBranch` - merge two local branch: branch which is active 
-
-& and that which we put either value "nameOfBranch"
+`git merge nameOfBranch` - merge two local branch: branch which is active that which we put either value "nameOfBranch"
