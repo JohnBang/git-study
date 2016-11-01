@@ -4,7 +4,9 @@
 
 `git status`
 
-`git add *.*`
+`git add nameofFile.extension`
+
+`git add .` 
 
 `git branch -a`
 
