@@ -8,6 +8,21 @@
 
 `git add .` - add all new files to index
 
+`git stash` - add all modified files to a stack of unfinished changes in active branch
+
+`git stash list` - allow to view the stack of active branch
+
+`git stash apply` - give a chance to return old changes with stack to the working directory
+
+`git stash apply --index` - return old changes with stack to the index or working directory
+
+`git stash clear` - clear all changes of stack
+
+`git stash apply id` - returns changes from a specific point in stack  
+
+`git stash apply id --index` returns changes from a specific point  including files of index
+
+
 `git branch -a` - show all local and global branch  
 
 `git branch` - show only local branch
