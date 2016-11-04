@@ -8,6 +8,7 @@
 
 `git add .` - add all new files to index
 
+
 `git stash` - add all modified files to a stack of unfinished changes in active branch
 
 `git stash list` - allow to view the stack of active branch
@@ -20,7 +21,11 @@
 
 `git stash apply idOfPoint` - returns changes from a specific point(idOfPoint) in stack  
 
-`git stash apply idOfPoint --index` returns changes from a specific point (idOfPoint) including files of index
+`git stash apply idOfPoint --index` - returns changes from a specific point (idOfPoint) including files of index
+
+`git stash branch testbranch` - creating a branch of hidden changes with the last point of stack
+
+`git stash branch testbranch idOfPoint` - creating a branch of hidden changes with the idOfPoint point
 
 
 `git branch -a` - show all local and global branch  
