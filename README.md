@@ -18,9 +18,9 @@
 
 `git stash clear` - clear all changes of stack
 
-`git stash apply id` - returns changes from a specific point in stack  
+`git stash apply idOfPoint` - returns changes from a specific point(idOfPoint) in stack  
 
-`git stash apply id --index` returns changes from a specific point  including files of index
+`git stash apply idOfPoint --index` returns changes from a specific point (idOfPoint) including files of index
 
 
 `git branch -a` - show all local and global branch  
